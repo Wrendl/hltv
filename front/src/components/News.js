@@ -12,8 +12,8 @@ const Body = (props) => {
     const data = props.newsData.map((row, index) => {
         return (    
             <div>
-                <div key={index} className='standard-box standard-list'>
-                    <span className='name'>{row.title}</span>
+                <div key={index} className='ranked-team standard-box'>
+                    <span className='news_title'>{row.title}</span>
                 </div>
             </div>
         )

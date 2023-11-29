@@ -8,10 +8,10 @@ const Home = () => {
   return (
     <div class="main grid-contain">
         <div className='hltv-logo-container'></div>
-        <div className='col-box-con'><Rankings></Rankings></div>
-        <div className='contentCol'><News></News></div>
-        <Events></Events>
-        <Matches></Matches>
+        <div className='ranksHome'><Rankings></Rankings></div>
+        <div className='newsHome'><News></News></div>
+        <div className='eventsHome'><Events></Events></div>
+        <div className='matchesHome'><Matches></Matches></div>
     </div>
   )
 };
