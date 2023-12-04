@@ -3,7 +3,7 @@ import {data} from './data'
 
 const HeaderHome = () => {
     return (
-        <h1>Team Rankings</h1>
+        <h1>TEAM RANKINGS</h1>
     )   
 }
 

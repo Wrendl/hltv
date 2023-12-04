@@ -62,5 +62,15 @@ export const data = {
                 },
             ]
         }
+    ],
+
+    events : [
+        {
+            name: "BLAST Premier Spring Groups 2024",
+            location: "Belgrade, Serbia",
+            date: "Jan 22nd - Jan 28th",
+            prize: "$1,000,000",
+            teams: [1,2]
+        }
     ]
 }
